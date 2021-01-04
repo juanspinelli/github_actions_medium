@@ -11,7 +11,7 @@
 
 ![dockerhub](app/images/_proyecto_.png)
 
-## Ejecución solo pull:
+## Ejecución solo pull :
 
 docker pull testmediumlabjs/github_actions_medium:latest
 
@@ -19,7 +19,7 @@ docker run -d -p 8000:15400 --name fast_api testmediumlabjs/github_actions_mediu
 
 localhost:8000/docs
 
-## Flujo de trabajo:-
+## Flujo de trabajo :
 
 - Ejemplo FastAPI
 - Dockerfile
@@ -37,11 +37,11 @@ localhost:8000/docs
 - Correr Snyk para checkear vulnerabilidades en la imagen creada
 - Notifica por Slack la ejecución del Github Action
 
-## Actualización
+## Actualización :
 
 - Deploy Minikube local (No forma parte del github actions)
 
-## Url
+## Url :
 
 https://hub.docker.com/repository/docker/testmediumlabjs/github_actions_medium
 
